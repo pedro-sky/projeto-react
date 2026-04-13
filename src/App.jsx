@@ -18,12 +18,11 @@ function App() {
     },
   ]);
 
-  function onTaskClick(tasksId) {
-    const newTasks = tasks.map((tasks) => {
-      if (tasks.id == tasksId)
-        return { ...tasks, isCompleted: "tasks.isCompleted" };
+  function onTaskClick(taskId) {
+    const newTasks = tasks.map((task) => {
+      if (task.id == taskId) return { ...task, isCompleted: !task.isCompleted };
 
-      return tasks;
+      return task;
     });
     setTasks(newTasks);
   }
