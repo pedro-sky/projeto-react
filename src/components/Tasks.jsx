@@ -1,10 +1,4 @@
-import {
-  ChevronRightIcon,
-  Delete,
-  DeleteIcon,
-  Trash2Icon,
-  TrashIcon,
-} from "lucide-react";
+import { ChevronRightIcon, Trash2Icon } from "lucide-react";
 
 function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
   return (
