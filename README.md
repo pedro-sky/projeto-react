@@ -81,6 +81,13 @@ The API response should follow this format:
   }
 ]
 ```
+## 📸 Screenshots
+
+<img width="572" height="449" alt="image" src="https://github.com/user-attachments/assets/0a8f9591-e978-47be-b48d-104639ee01b9" />
+<br>
+<img width="602" height="191" alt="image" src="https://github.com/user-attachments/assets/de07a2bd-c7d5-4a52-9e8d-376db42e0786" />
+
+
 
 ---
 
