@@ -1,4 +1,4 @@
-import { ChevronRightIcon, Trash2Icon } from "lucide-react";
+import { ChevronRightIcon, Trash2Icon, XIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
@@ -33,7 +33,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
             onClick={() => onDeleteTaskClick(tasks.id)}
             className="bg-slate-400 p-2 rounded-md text-white"
           >
-            <Trash2Icon />
+            <XIcon />
           </button>
         </li>
       ))}
